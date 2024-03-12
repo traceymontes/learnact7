@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(255, 192, 203, 0.527);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff94;
+    padding: 20px;
+    padding-left: 85px;
+    padding-right: 135px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.541);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#userForm{
+    padding: 10px;
+}
+
+#output {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff94;
+    padding: 20px;
+    padding-left: 85px;
+    padding-right: 135px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.541);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #ff93ffe7;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e436aaa2;
+}
